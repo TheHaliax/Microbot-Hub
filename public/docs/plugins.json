@@ -1,18 +1,79 @@
 [
     {
+        "internalName": "AnonymousPlugin",
+        "name": "Anonymous Mode",
+        "description": "Hide your in-game identity.",
+        "tags": [
+            "chat",
+            "mask",
+            "hide",
+            "anonymous"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.6",
+        "author": "Bolado",
+        "supportUrl": "https://github.com/chsami/microbot",
+        "iconUrl": "https://oldschool.runescape.wiki/images/Rogue_mask_chathead.png?0b359",
+        "sha256": "7563e0e4ded82d77a553a2f02e71ecd648e2a0feadbe880a4b285e224ebc4c38",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/anonymousplugin/1.0.0/anonymousplugin-1.0.0.jar"
+    },
+    {
+        "internalName": "BlessedWinePlugin",
+        "name": "Blessed Wine",
+        "description": "Automating Prayer Training using blessed wines at Cam Torum",
+        "tags": [
+            "blessed",
+            "wine",
+            "ralos",
+            "prayer",
+            "libation",
+            "microbot",
+            "automation"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.6",
+        "author": "Hal",
+        "supportUrl": "https://github.com/chsami/microbot",
+        "iconUrl": "https://oldschool.runescape.wiki/images/Jug_of_wine.png",
+        "sha256": "b467d93aaea7d33707bcffc6f23d236bb8d660452e67b4a2e4f57ee92f250644",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/blessedwineplugin/1.0.0/blessedwineplugin-1.0.0.jar"
+    },
+    {
         "internalName": "PestControlPlugin",
-        "name": "Pest Control Hub",
-        "description": "Microbot Pest Control plugin, this only supports the combat 100+ boat. Start at the front of the boat",
+        "name": "Pest Control",
+        "description": "Supports all boats, portals, and shields.",
         "tags": [
             "pest control",
             "microbot",
             "minigames"
         ],
-        "version": "2.2.0",
+        "version": "2.2.4",
         "minClientVersion": "1.9.6",
         "author": "Mocrosoft",
         "supportUrl": "https://github.com/chsami/microbot",
-        "sha256": "51874d88bdb16b1047df9c608888f4426571f79c4c82ca18c813056ccb75d125",
-        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.0/pestcontrolplugin-2.2.0.jar"
+        "iconUrl": "https://oldschool.runescape.wiki/images/Pest_Control.png?ed7bb",
+        "sha256": "647781a86c0df26881c846d52cd601a0991113e6c5cb9453e6693d8b73f57d70",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pestcontrolplugin/2.2.4/pestcontrolplugin-2.2.4.jar"
+    },
+    {
+        "internalName": "PyramidPlunderPlugin",
+        "name": "Pyramid Plunder",
+        "description": "Automates Pyramid Plunder minigame with full overlay, loot logic, and timer.",
+        "tags": [
+            "pyramid",
+            "plunder",
+            "thieving",
+            "skilling",
+            "minigame",
+            "microbot",
+            "automation"
+        ],
+        "version": "1.0.0",
+        "minClientVersion": "1.9.6",
+        "author": "Hal",
+        "supportUrl": "https://github.com/chsami/microbot",
+        "iconUrl": "https://oldschool.runescape.wiki/images/Pyramid_plunder.png",
+        "sha256": "487d903dcd1d46d4b2c293e06a9b56a90c07209a7a17826221467066a514780b",
+        "url": "https://nexus.microbot.cloud/repository/microbot-plugins/net/runelite/client/plugins/microbot/pyramidplunderplugin/1.0.0/pyramidplunderplugin-1.0.0.jar"
     }
 ]
